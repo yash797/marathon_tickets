@@ -82,7 +82,7 @@ const Price = () => {
                     {member.name}
                   </p>
                   {/* <p className="card-post mt-2">{member.role}</p> */}
-                  <p className="text-bold text-xl text-center text-cyan-600">Enter number of tickets of {member.price}</p>
+                  <p className="text-bold text-xl text-center text-cyan-600">Enter number of tickets of ₹{member.price}</p>
                   <input
                     type="number"
                     required
